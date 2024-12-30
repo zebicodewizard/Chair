@@ -1,0 +1,98 @@
+@media (max-width: 768px) {
+  .hero {
+    max-width: 100%; /* Allows the hero to be more fluid and responsive */
+    width: 100%; /* Ensures the hero stretches to the full width of the container */
+  }
+
+  .header {
+    margin-left: 20px;  /* Smaller margin for mobile screens */
+    margin-right: 20px; /* Smaller margin for mobile screens */
+  }
+
+  .qs{
+    margin-left: 35px;  /* Smaller margin for mobile screens */
+    margin-right: 35px;
+  }
+  .testimonial-section{
+    margin-left: 35px;
+    margin-right: 35px;  
+  }
+  .qss{
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+.qsss{
+  margin-left: 35px;
+  margin-right: 35px;
+}
+}
+
+/*mobilee screen*/
+
+@media (max-width: 480px) {
+  .hero {
+    max-width: 100%; /* Allows the hero to be more fluid and responsive */
+    width: 100%; /* Ensures the hero stretches to the full width of the container */
+  }
+
+
+.header{
+  flex-direction: column-reverse;
+}
+
+  .grid-3-cols{
+    grid-template-columns: repeat(1, 1fr);
+  }
+.header{
+  display: flex;
+  padding: 48px;
+}
+
+
+.grid-3-cols{
+  display: block;
+}
+
+.testimonial-box{
+  margin-top: 30px;
+}
+
+
+  header,
+  section {
+    margin-bottom: 96px;
+  }
+
+  h2 {
+    margin-bottom: 48px;
+    font-size: 36px;
+    letter-spacing: -0.5px;
+    /* 24 / 30 / 36 */
+}
+}
+
+
+/* header-text-box*/
+
+  .header-text-box {
+    height: auto; 
+    padding: 20px; 
+    
+  }
+
+  .header-text-box h1 {
+    font-size: 1.5rem; 
+    margin-bottom: 1rem;
+  }
+
+  .header-text-box .header-text {
+    font-size: 0.9rem; 
+    margin-bottom: 1.5rem;
+  }
+
+  .header-text-box .btn {
+    padding: 12px 24px;
+    font-size: 1.1rem; 
+  }
+}
+
